@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1060</width>
-    <height>800</height>
+    <width>1111</width>
+    <height>811</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,155 +17,273 @@
    <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="Btn_Run_Ban_1">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>110</y>
-      <width>120</width>
-      <height>70</height>
+      <x>0</x>
+      <y>0</y>
+      <width>1100</width>
+      <height>731</height>
      </rect>
     </property>
     <property name="text">
-     <string>Run_Ban_1</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Untitled.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>180</y>
+      <width>351</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>bgnd_control_1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>180</y>
+      <width>201</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>bgnd_control_1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>190</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string> LẤY ĐƠN HÀNG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Run_Ban_1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>240</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	
+	color: rgb(224,225,221);
+	font: 700 15pt &quot;Times New Roman&quot;;
+	background-color:rgb(62, 91, 255);
+	border-radius: 20px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(47, 48, 206);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>BÀN 1</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
-    <property name="autoDefault">
+    <property name="default">
      <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>190</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 10pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>GIAO ĐỒ ĂN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Ra_Ban_1">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>240</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(225, 225, 225);
+	font: 700 15pt &quot;Times New Roman&quot;;
+    background-color: rgb(103, 125, 225);
+	border-radius: 20px;
+}
+QPushButton:pressed {
+	background-color: rgb(101, 112, 235);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>BÀN 1</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
     </property>
     <property name="default">
      <bool>false</bool>
     </property>
-   </widget>
-   <widget class="QTextBrowser" name="txt_order_index_0">
-    <property name="geometry">
-     <rect>
-      <x>660</x>
-      <y>110</y>
-      <width>360</width>
-      <height>370</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>3</number>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <property name="flat">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="Btn_Run_Ban_2">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>210</y>
-      <width>120</width>
-      <height>70</height>
+      <x>90</x>
+      <y>340</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(224,225,221);
+	font: 700 15pt &quot;Times New Roman&quot;;
+	background-color:rgb(62, 91, 255);
+	border-radius: 20px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(47, 48, 206);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
     <property name="text">
-     <string>Run_Ban_2</string>
+     <string>BÀN 2</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
-    <property name="autoDefault">
+    <property name="default">
      <bool>false</bool>
     </property>
-    <property name="default">
+    <property name="flat">
      <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="Btn_Run_Ban_3">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>310</y>
-      <width>120</width>
-      <height>70</height>
+      <x>90</x>
+      <y>440</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(224,225,221);
+	font: 700 15pt &quot;Times New Roman&quot;;
+	background-color:rgb(62, 91, 255);
+	border-radius: 20px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(47, 48, 206);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
     <property name="text">
-     <string>Run_Ban_3</string>
+     <string>BÀN 3</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
-    <property name="autoDefault">
+    <property name="default">
      <bool>false</bool>
     </property>
-    <property name="default">
+    <property name="flat">
      <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="Btn_Run_Ban_4">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>410</y>
-      <width>120</width>
-      <height>70</height>
+      <x>90</x>
+      <y>540</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(224,225,221);
+	font: 700 15pt &quot;Times New Roman&quot;;
+	background-color:rgb(62, 91, 255);
+	border-radius: 20px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(47, 48, 206);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
     <property name="text">
-     <string>Run_Ban_4</string>
+     <string>BÀN 4</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
-    <property name="default">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Btn_Ra_Ban_1">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>110</y>
-      <width>120</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Ra_Ban_1</string>
-    </property>
-    <property name="checkable">
-     <bool>true</bool>
-    </property>
-    <property name="checked">
-     <bool>false</bool>
-    </property>
-    <property name="autoRepeat">
-     <bool>true</bool>
-    </property>
-    <property name="autoExclusive">
-     <bool>false</bool>
-    </property>
-    <property name="autoRepeatDelay">
-     <number>300</number>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
     </property>
     <property name="default">
      <bool>false</bool>
@@ -177,91 +295,105 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="Btn_Ra_Ban_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>210</y>
-      <width>120</width>
-      <height>70</height>
+      <x>325</x>
+      <y>340</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(225, 225, 225);
+	font: 700 15pt &quot;Times New Roman&quot;;
+    background-color: rgb(103, 125, 225);
+	border-radius: 20px;
+}
+QPushButton:pressed {
+	background-color: rgb(101, 112, 235);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
     <property name="text">
-     <string>Ra_Ban_2</string>
+     <string>BÀN 2</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
-    <property name="checked">
-     <bool>false</bool>
-    </property>
-    <property name="autoRepeat">
-     <bool>false</bool>
-    </property>
-    <property name="autoExclusive">
-     <bool>false</bool>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
     <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
      <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="Btn_Ra_Ban_3">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>310</y>
-      <width>120</width>
-      <height>70</height>
+      <x>325</x>
+      <y>440</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(225, 225, 225);
+	font: 700 15pt &quot;Times New Roman&quot;;
+    background-color: rgb(103, 125, 225);
+	border-radius: 20px;
+}
+QPushButton:pressed {
+	background-color: rgb(101, 112, 235);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
     <property name="text">
-     <string>Ra_Ban_3</string>
+     <string>BÀN 3</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
-    <property name="autoDefault">
+    <property name="default">
      <bool>false</bool>
     </property>
-    <property name="default">
+    <property name="flat">
      <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="Btn_Ra_Ban_4">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>410</y>
-      <width>120</width>
-      <height>70</height>
+      <x>325</x>
+      <y>540</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(225, 225, 225);
+	font: 700 15pt &quot;Times New Roman&quot;;
+    background-color: rgb(103, 125, 225);
+	border-radius: 20px;
+}
+QPushButton:pressed {
+	background-color: rgb(101, 112, 235);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
     <property name="text">
-     <string>Ra_Ban_4</string>
+     <string>BÀN 4</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
     <property name="default">
      <bool>false</bool>
     </property>
-   </widget>
-   <widget class="QPushButton" name="Btn_Send">
-    <property name="geometry">
-     <rect>
-      <x>900</x>
-      <y>490</y>
-      <width>120</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>SEND</string>
-    </property>
-    <property name="autoDefault">
+    <property name="flat">
      <bool>false</bool>
     </property>
    </widget>
@@ -271,97 +403,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>110</y>
+      <x>520</x>
+      <y>242</y>
       <width>120</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>ArrowCursor</cursorShape>
-    </property>
-    <property name="contextMenuPolicy">
-     <enum>Qt::NoContextMenu</enum>
-    </property>
-    <property name="currentText">
-     <string>        KHAY 1 </string>
-    </property>
-    <property name="maxVisibleItems">
-     <number>20</number>
-    </property>
-    <property name="insertPolicy">
-     <enum>QComboBox::NoInsert</enum>
-    </property>
-    <property name="sizeAdjustPolicy">
-     <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>50</width>
-      <height>50</height>
-     </size>
-    </property>
-    <property name="duplicatesEnabled">
-     <bool>false</bool>
-    </property>
-    <item>
-     <property name="text">
-      <string>        KHAY 1 </string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>        KHAY 2</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QPushButton" name="Btn_Run">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>660</x>
-      <y>490</y>
-      <width>120</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>RUN</string>
-    </property>
-    <property name="checkable">
-     <bool>false</bool>
-    </property>
-    <property name="checked">
-     <bool>false</bool>
-    </property>
-    <property name="autoRepeat">
-     <bool>true</bool>
-    </property>
-    <property name="autoRepeatDelay">
-     <number>100</number>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
-    <property name="default">
-     <bool>true</bool>
-    </property>
-    <property name="flat">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="cbBox_Khay_index_2">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>210</y>
-      <width>120</width>
-      <height>70</height>
+      <height>68</height>
      </rect>
     </property>
     <property name="cursor">
@@ -408,10 +453,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>310</y>
+      <x>520</x>
+      <y>442</y>
       <width>120</width>
-      <height>70</height>
+      <height>68</height>
      </rect>
     </property>
     <property name="cursor">
@@ -458,10 +503,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>410</y>
+      <x>520</x>
+      <y>542</y>
       <width>120</width>
-      <height>70</height>
+      <height>68</height>
      </rect>
     </property>
     <property name="cursor">
@@ -502,25 +547,192 @@ p, li { white-space: pre-wrap; }
      </property>
     </item>
    </widget>
-   <widget class="QPushButton" name="Btn_Cnt_MQTT">
+   <widget class="QComboBox" name="cbBox_Khay_index_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>10</y>
+      <x>520</x>
+      <y>342</y>
       <width>120</width>
-      <height>70</height>
+      <height>68</height>
      </rect>
     </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="currentText">
+     <string>        KHAY 1 </string>
+    </property>
+    <property name="maxVisibleItems">
+     <number>20</number>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::NoInsert</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="duplicatesEnabled">
+     <bool>false</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>        KHAY 1 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>        KHAY 2</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextBrowser" name="txt_order_index_0">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>180</y>
+      <width>351</width>
+      <height>370</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:7.8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Run">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>560</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(225, 225, 225);
+	font: 700 15pt &quot;Times New Roman&quot;;
+	background-color: rgb(0, 185, 115);
+	border-radius: 20px;
+}
+QPushButton:pressed {
+	background-color: rgb(0, 170,85);
+	border-bottom: 5px solid black;
+}
+</string>
     </property>
     <property name="text">
-     <string>DISCONNECT</string>
+     <string>KÍCH HOẠT</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
-    <property name="autoDefault">
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Cnt_MQTT">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>80</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(250, 250, 250);
+	font: 700 12pt &quot;Times New Roman&quot;;
+	border-radius: 20px;
+	;
+	background-color: rgb(118, 118, 118);
+}
+
+QPushButton:pressed {
+	
+	background-color: rgb(5,208, 50);
+	color: rgb(250, 250, 250);
+	font: 700 12pt &quot;Times New Roman&quot;;
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>NGẮT KẾT NỐI</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_print">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>560</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(225, 225, 225);
+	font: 700 15pt &quot;Times New Roman&quot;;
+	background-color: rgb(0, 185, 115);
+	border-radius: 20px;
+}
+QPushButton:pressed {
+	background-color: rgb(0, 170,85);
+	border-bottom: 5px solid black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>XUẤT</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
      <bool>false</bool>
     </property>
    </widget>
@@ -530,8 +742,8 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1060</width>
-     <height>26</height>
+     <width>1111</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
@@ -546,12 +758,12 @@ p, li { white-space: pre-wrap; }
    <slot>slot1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>95</x>
-     <y>140</y>
+     <x>179</x>
+     <y>271</y>
     </hint>
     <hint type="destinationlabel">
-     <x>234</x>
-     <y>115</y>
+     <x>257</x>
+     <y>235</y>
     </hint>
    </hints>
   </connection>
@@ -562,12 +774,12 @@ p, li { white-space: pre-wrap; }
    <slot>slot1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>99</x>
-     <y>237</y>
+     <x>166</x>
+     <y>383</y>
     </hint>
     <hint type="destinationlabel">
-     <x>230</x>
-     <y>221</y>
+     <x>267</x>
+     <y>351</y>
     </hint>
    </hints>
   </connection>
@@ -578,12 +790,12 @@ p, li { white-space: pre-wrap; }
    <slot>slot1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>110</x>
-     <y>338</y>
+     <x>170</x>
+     <y>467</y>
     </hint>
     <hint type="destinationlabel">
-     <x>207</x>
-     <y>322</y>
+     <x>269</x>
+     <y>449</y>
     </hint>
    </hints>
   </connection>
@@ -594,156 +806,12 @@ p, li { white-space: pre-wrap; }
    <slot>slot1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>117</x>
-     <y>441</y>
+     <x>176</x>
+     <y>567</y>
     </hint>
     <hint type="destinationlabel">
-     <x>205</x>
-     <y>425</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Run</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot1()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>759</x>
-     <y>544</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>831</x>
-     <y>556</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Ra_Ban_2</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot2()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>313</x>
-     <y>242</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>399</x>
-     <y>213</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Ra_Ban_3</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot2()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>306</x>
-     <y>343</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>415</x>
-     <y>317</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Ra_Ban_4</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot2()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>321</x>
-     <y>445</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>406</x>
-     <y>422</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Ra_Ban_1</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>cbBox_Khay_index_1</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>355</x>
-     <y>170</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>463</x>
-     <y>155</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Ra_Ban_1</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot2()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>317</x>
-     <y>138</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>395</x>
-     <y>84</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Ra_Ban_2</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>cbBox_Khay_index_2</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>359</x>
-     <y>271</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>468</x>
-     <y>275</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Ra_Ban_3</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>cbBox_Khay_index_3</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>352</x>
-     <y>387</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>479</x>
-     <y>373</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Btn_Ra_Ban_4</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>cbBox_Khay_index_4</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>361</x>
-     <y>468</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>444</x>
-     <y>476</y>
+     <x>283</x>
+     <y>549</y>
     </hint>
    </hints>
   </connection>
@@ -754,12 +822,172 @@ p, li { white-space: pre-wrap; }
    <slot>slot3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>179</x>
-     <y>67</y>
+     <x>167</x>
+     <y>128</y>
     </hint>
     <hint type="destinationlabel">
-     <x>233</x>
-     <y>44</y>
+     <x>285</x>
+     <y>95</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Ra_Ban_1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>414</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>462</x>
+     <y>192</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Ra_Ban_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>414</x>
+     <y>372</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>347</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Ra_Ban_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>412</x>
+     <y>469</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>500</x>
+     <y>451</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Ra_Ban_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>436</x>
+     <y>587</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Ra_Ban_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cbBox_Khay_index_1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>483</x>
+     <y>301</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>593</x>
+     <y>302</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Ra_Ban_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cbBox_Khay_index_2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>468</x>
+     <y>408</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>569</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Ra_Ban_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cbBox_Khay_index_3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>468</x>
+     <y>496</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>544</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Ra_Ban_4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cbBox_Khay_index_4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>478</x>
+     <y>594</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>545</x>
+     <y>601</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_print</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1020</x>
+     <y>612</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1059</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Btn_Run</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot_pub()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>758</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>800</x>
+     <y>783</y>
     </hint>
    </hints>
   </connection>
@@ -768,5 +996,7 @@ p, li { white-space: pre-wrap; }
   <slot>slot1()</slot>
   <slot>slot2()</slot>
   <slot>slot3()</slot>
+  <slot>slot4()</slot>
+  <slot>slot_pub()</slot>
  </slots>
 </ui>
