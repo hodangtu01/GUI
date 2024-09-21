@@ -14,81 +14,182 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1060, 800)
+        MainWindow.resize(1111, 811)
         MainWindow.setAnimated(False)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(0, 0, 1100, 731))
+        self.label.setText("")
+        self.label.setPixmap(QtGui.QPixmap("Untitled.png"))
+        self.label.setScaledContents(True)
+        self.label.setObjectName("label")
+        self.label_7 = QtWidgets.QLabel(self.centralwidget)
+        self.label_7.setGeometry(QtCore.QRect(310, 180, 351, 451))
+        self.label_7.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_7.setText("")
+        self.label_7.setPixmap(QtGui.QPixmap("bgnd_control_1.png"))
+        self.label_7.setScaledContents(True)
+        self.label_7.setObjectName("label_7")
+        self.label_8 = QtWidgets.QLabel(self.centralwidget)
+        self.label_8.setGeometry(QtCore.QRect(70, 180, 201, 451))
+        self.label_8.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_8.setText("")
+        self.label_8.setPixmap(QtGui.QPixmap("bgnd_control_1.png"))
+        self.label_8.setScaledContents(True)
+        self.label_8.setObjectName("label_8")
+        self.label_9 = QtWidgets.QLabel(self.centralwidget)
+        self.label_9.setGeometry(QtCore.QRect(99, 190, 131, 31))
+        self.label_9.setStyleSheet("font: 700 10pt \"Times New Roman\";")
+        self.label_9.setObjectName("label_9")
         self.Btn_Run_Ban_1 = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Run_Ban_1.setGeometry(QtCore.QRect(60, 110, 120, 70))
+        self.Btn_Run_Ban_1.setGeometry(QtCore.QRect(90, 240, 161, 71))
+        self.Btn_Run_Ban_1.setStyleSheet("QPushButton {\n"
+"    \n"
+"    color: rgb(224,225,221);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color:rgb(62, 91, 255);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(47, 48, 206);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
         self.Btn_Run_Ban_1.setCheckable(True)
-        self.Btn_Run_Ban_1.setAutoDefault(False)
         self.Btn_Run_Ban_1.setDefault(False)
+        self.Btn_Run_Ban_1.setFlat(False)
         self.Btn_Run_Ban_1.setObjectName("Btn_Run_Ban_1")
-        self.txt_order_index_0 = QtWidgets.QTextBrowser(self.centralwidget)
-        self.txt_order_index_0.setGeometry(QtCore.QRect(660, 110, 360, 370))
-        self.txt_order_index_0.setFrameShape(QtWidgets.QFrame.Box)
-        self.txt_order_index_0.setFrameShadow(QtWidgets.QFrame.Plain)
-        self.txt_order_index_0.setLineWidth(3)
-        self.txt_order_index_0.setReadOnly(True)
-        self.txt_order_index_0.setObjectName("txt_order_index_0")
-        self.Btn_Run_Ban_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Run_Ban_2.setGeometry(QtCore.QRect(60, 210, 120, 70))
-        self.Btn_Run_Ban_2.setCheckable(True)
-        self.Btn_Run_Ban_2.setAutoDefault(False)
-        self.Btn_Run_Ban_2.setDefault(False)
-        self.Btn_Run_Ban_2.setObjectName("Btn_Run_Ban_2")
-        self.Btn_Run_Ban_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Run_Ban_3.setGeometry(QtCore.QRect(60, 310, 120, 70))
-        self.Btn_Run_Ban_3.setCheckable(True)
-        self.Btn_Run_Ban_3.setAutoDefault(False)
-        self.Btn_Run_Ban_3.setDefault(False)
-        self.Btn_Run_Ban_3.setObjectName("Btn_Run_Ban_3")
-        self.Btn_Run_Ban_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Run_Ban_4.setGeometry(QtCore.QRect(60, 410, 120, 70))
-        self.Btn_Run_Ban_4.setCheckable(True)
-        self.Btn_Run_Ban_4.setAutoDefault(False)
-        self.Btn_Run_Ban_4.setDefault(False)
-        self.Btn_Run_Ban_4.setObjectName("Btn_Run_Ban_4")
+        self.label_10 = QtWidgets.QLabel(self.centralwidget)
+        self.label_10.setGeometry(QtCore.QRect(350, 190, 111, 31))
+        self.label_10.setStyleSheet("font: 700 10pt \"Times New Roman\";")
+        self.label_10.setObjectName("label_10")
         self.Btn_Ra_Ban_1 = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Ra_Ban_1.setEnabled(True)
-        self.Btn_Ra_Ban_1.setGeometry(QtCore.QRect(250, 110, 120, 70))
+        self.Btn_Ra_Ban_1.setGeometry(QtCore.QRect(325, 240, 161, 71))
+        self.Btn_Ra_Ban_1.setStyleSheet("QPushButton {\n"
+"    color: rgb(225, 225, 225);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color: rgb(103, 125, 225);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(101, 112, 235);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
         self.Btn_Ra_Ban_1.setCheckable(True)
-        self.Btn_Ra_Ban_1.setChecked(False)
-        self.Btn_Ra_Ban_1.setAutoRepeat(True)
-        self.Btn_Ra_Ban_1.setAutoExclusive(False)
-        self.Btn_Ra_Ban_1.setAutoRepeatDelay(300)
-        self.Btn_Ra_Ban_1.setAutoDefault(False)
         self.Btn_Ra_Ban_1.setDefault(False)
         self.Btn_Ra_Ban_1.setFlat(False)
         self.Btn_Ra_Ban_1.setObjectName("Btn_Ra_Ban_1")
+        self.Btn_Run_Ban_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn_Run_Ban_2.setGeometry(QtCore.QRect(90, 340, 161, 71))
+        self.Btn_Run_Ban_2.setStyleSheet("QPushButton {\n"
+"    color: rgb(224,225,221);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color:rgb(62, 91, 255);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(47, 48, 206);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
+        self.Btn_Run_Ban_2.setCheckable(True)
+        self.Btn_Run_Ban_2.setDefault(False)
+        self.Btn_Run_Ban_2.setFlat(False)
+        self.Btn_Run_Ban_2.setObjectName("Btn_Run_Ban_2")
+        self.Btn_Run_Ban_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn_Run_Ban_3.setGeometry(QtCore.QRect(90, 440, 161, 71))
+        self.Btn_Run_Ban_3.setStyleSheet("QPushButton {\n"
+"    color: rgb(224,225,221);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color:rgb(62, 91, 255);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(47, 48, 206);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
+        self.Btn_Run_Ban_3.setCheckable(True)
+        self.Btn_Run_Ban_3.setDefault(False)
+        self.Btn_Run_Ban_3.setFlat(False)
+        self.Btn_Run_Ban_3.setObjectName("Btn_Run_Ban_3")
+        self.Btn_Run_Ban_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn_Run_Ban_4.setGeometry(QtCore.QRect(90, 540, 161, 71))
+        self.Btn_Run_Ban_4.setStyleSheet("QPushButton {\n"
+"    color: rgb(224,225,221);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color:rgb(62, 91, 255);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(47, 48, 206);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
+        self.Btn_Run_Ban_4.setCheckable(True)
+        self.Btn_Run_Ban_4.setDefault(False)
+        self.Btn_Run_Ban_4.setFlat(False)
+        self.Btn_Run_Ban_4.setObjectName("Btn_Run_Ban_4")
         self.Btn_Ra_Ban_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Ra_Ban_2.setGeometry(QtCore.QRect(250, 210, 120, 70))
+        self.Btn_Ra_Ban_2.setGeometry(QtCore.QRect(325, 340, 161, 71))
+        self.Btn_Ra_Ban_2.setStyleSheet("QPushButton {\n"
+"    color: rgb(225, 225, 225);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color: rgb(103, 125, 225);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(101, 112, 235);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
         self.Btn_Ra_Ban_2.setCheckable(True)
-        self.Btn_Ra_Ban_2.setChecked(False)
-        self.Btn_Ra_Ban_2.setAutoRepeat(False)
-        self.Btn_Ra_Ban_2.setAutoExclusive(False)
-        self.Btn_Ra_Ban_2.setAutoDefault(False)
         self.Btn_Ra_Ban_2.setDefault(False)
+        self.Btn_Ra_Ban_2.setFlat(False)
         self.Btn_Ra_Ban_2.setObjectName("Btn_Ra_Ban_2")
         self.Btn_Ra_Ban_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Ra_Ban_3.setGeometry(QtCore.QRect(250, 310, 120, 70))
+        self.Btn_Ra_Ban_3.setGeometry(QtCore.QRect(325, 440, 161, 71))
+        self.Btn_Ra_Ban_3.setStyleSheet("QPushButton {\n"
+"    color: rgb(225, 225, 225);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color: rgb(103, 125, 225);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(101, 112, 235);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
         self.Btn_Ra_Ban_3.setCheckable(True)
-        self.Btn_Ra_Ban_3.setAutoDefault(False)
         self.Btn_Ra_Ban_3.setDefault(False)
+        self.Btn_Ra_Ban_3.setFlat(False)
         self.Btn_Ra_Ban_3.setObjectName("Btn_Ra_Ban_3")
         self.Btn_Ra_Ban_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Ra_Ban_4.setGeometry(QtCore.QRect(250, 410, 120, 70))
+        self.Btn_Ra_Ban_4.setGeometry(QtCore.QRect(325, 540, 161, 71))
+        self.Btn_Ra_Ban_4.setStyleSheet("QPushButton {\n"
+"    color: rgb(225, 225, 225);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color: rgb(103, 125, 225);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(101, 112, 235);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
         self.Btn_Ra_Ban_4.setCheckable(True)
-        self.Btn_Ra_Ban_4.setAutoDefault(False)
         self.Btn_Ra_Ban_4.setDefault(False)
+        self.Btn_Ra_Ban_4.setFlat(False)
         self.Btn_Ra_Ban_4.setObjectName("Btn_Ra_Ban_4")
-        self.Btn_Send = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Send.setGeometry(QtCore.QRect(900, 490, 120, 70))
-        self.Btn_Send.setAutoDefault(False)
-        self.Btn_Send.setObjectName("Btn_Send")
         self.cbBox_Khay_index_1 = QtWidgets.QComboBox(self.centralwidget)
         self.cbBox_Khay_index_1.setEnabled(False)
-        self.cbBox_Khay_index_1.setGeometry(QtCore.QRect(440, 110, 120, 70))
+        self.cbBox_Khay_index_1.setGeometry(QtCore.QRect(520, 242, 120, 68))
         self.cbBox_Khay_index_1.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         self.cbBox_Khay_index_1.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.cbBox_Khay_index_1.setMaxVisibleItems(20)
@@ -99,33 +200,9 @@ class Ui_MainWindow(object):
         self.cbBox_Khay_index_1.setObjectName("cbBox_Khay_index_1")
         self.cbBox_Khay_index_1.addItem("")
         self.cbBox_Khay_index_1.addItem("")
-        self.Btn_Run = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Run.setEnabled(True)
-        self.Btn_Run.setGeometry(QtCore.QRect(660, 490, 120, 70))
-        self.Btn_Run.setCheckable(False)
-        self.Btn_Run.setChecked(False)
-        self.Btn_Run.setAutoRepeat(True)
-        self.Btn_Run.setAutoRepeatDelay(100)
-        self.Btn_Run.setAutoDefault(False)
-        self.Btn_Run.setDefault(True)
-        self.Btn_Run.setFlat(False)
-        self.Btn_Run.setObjectName("Btn_Run")
-        self.cbBox_Khay_index_2 = QtWidgets.QComboBox(self.centralwidget)
-        self.cbBox_Khay_index_2.setEnabled(False)
-        self.cbBox_Khay_index_2.setGeometry(QtCore.QRect(440, 210, 120, 70))
-        self.cbBox_Khay_index_2.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
-        self.cbBox_Khay_index_2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
-        self.cbBox_Khay_index_2.setMaxVisibleItems(20)
-        self.cbBox_Khay_index_2.setInsertPolicy(QtWidgets.QComboBox.NoInsert)
-        self.cbBox_Khay_index_2.setSizeAdjustPolicy(QtWidgets.QComboBox.AdjustToContentsOnFirstShow)
-        self.cbBox_Khay_index_2.setIconSize(QtCore.QSize(50, 50))
-        self.cbBox_Khay_index_2.setDuplicatesEnabled(False)
-        self.cbBox_Khay_index_2.setObjectName("cbBox_Khay_index_2")
-        self.cbBox_Khay_index_2.addItem("")
-        self.cbBox_Khay_index_2.addItem("")
         self.cbBox_Khay_index_3 = QtWidgets.QComboBox(self.centralwidget)
         self.cbBox_Khay_index_3.setEnabled(False)
-        self.cbBox_Khay_index_3.setGeometry(QtCore.QRect(440, 310, 120, 70))
+        self.cbBox_Khay_index_3.setGeometry(QtCore.QRect(520, 442, 120, 68))
         self.cbBox_Khay_index_3.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         self.cbBox_Khay_index_3.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.cbBox_Khay_index_3.setMaxVisibleItems(20)
@@ -138,7 +215,7 @@ class Ui_MainWindow(object):
         self.cbBox_Khay_index_3.addItem("")
         self.cbBox_Khay_index_4 = QtWidgets.QComboBox(self.centralwidget)
         self.cbBox_Khay_index_4.setEnabled(False)
-        self.cbBox_Khay_index_4.setGeometry(QtCore.QRect(440, 410, 120, 70))
+        self.cbBox_Khay_index_4.setGeometry(QtCore.QRect(520, 542, 120, 68))
         self.cbBox_Khay_index_4.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         self.cbBox_Khay_index_4.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.cbBox_Khay_index_4.setMaxVisibleItems(20)
@@ -149,15 +226,85 @@ class Ui_MainWindow(object):
         self.cbBox_Khay_index_4.setObjectName("cbBox_Khay_index_4")
         self.cbBox_Khay_index_4.addItem("")
         self.cbBox_Khay_index_4.addItem("")
+        self.cbBox_Khay_index_2 = QtWidgets.QComboBox(self.centralwidget)
+        self.cbBox_Khay_index_2.setEnabled(False)
+        self.cbBox_Khay_index_2.setGeometry(QtCore.QRect(520, 342, 120, 68))
+        self.cbBox_Khay_index_2.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
+        self.cbBox_Khay_index_2.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
+        self.cbBox_Khay_index_2.setMaxVisibleItems(20)
+        self.cbBox_Khay_index_2.setInsertPolicy(QtWidgets.QComboBox.NoInsert)
+        self.cbBox_Khay_index_2.setSizeAdjustPolicy(QtWidgets.QComboBox.AdjustToContentsOnFirstShow)
+        self.cbBox_Khay_index_2.setIconSize(QtCore.QSize(50, 50))
+        self.cbBox_Khay_index_2.setDuplicatesEnabled(False)
+        self.cbBox_Khay_index_2.setObjectName("cbBox_Khay_index_2")
+        self.cbBox_Khay_index_2.addItem("")
+        self.cbBox_Khay_index_2.addItem("")
+        self.txt_order_index_0 = QtWidgets.QTextBrowser(self.centralwidget)
+        self.txt_order_index_0.setGeometry(QtCore.QRect(680, 180, 351, 370))
+        self.txt_order_index_0.setFrameShape(QtWidgets.QFrame.Box)
+        self.txt_order_index_0.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.txt_order_index_0.setLineWidth(3)
+        self.txt_order_index_0.setReadOnly(True)
+        self.txt_order_index_0.setObjectName("txt_order_index_0")
+        self.Btn_Run = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn_Run.setGeometry(QtCore.QRect(680, 560, 161, 71))
+        self.Btn_Run.setStyleSheet("QPushButton {\n"
+"    color: rgb(225, 225, 225);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color: rgb(0, 185, 115);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(0, 170,85);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
+        self.Btn_Run.setCheckable(True)
+        self.Btn_Run.setDefault(False)
+        self.Btn_Run.setFlat(False)
+        self.Btn_Run.setObjectName("Btn_Run")
         self.Btn_Cnt_MQTT = QtWidgets.QPushButton(self.centralwidget)
-        self.Btn_Cnt_MQTT.setGeometry(QtCore.QRect(60, 10, 120, 70))
-        self.Btn_Cnt_MQTT.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.Btn_Cnt_MQTT.setGeometry(QtCore.QRect(90, 80, 161, 71))
+        self.Btn_Cnt_MQTT.setStyleSheet("QPushButton {\n"
+"    color: rgb(250, 250, 250);\n"
+"    font: 700 12pt \"Times New Roman\";\n"
+"    border-radius: 20px;\n"
+"    ;\n"
+"    background-color: rgb(118, 118, 118);\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    \n"
+"    background-color: rgb(5,208, 50);\n"
+"    color: rgb(250, 250, 250);\n"
+"    font: 700 12pt \"Times New Roman\";\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
         self.Btn_Cnt_MQTT.setCheckable(True)
-        self.Btn_Cnt_MQTT.setAutoDefault(False)
+        self.Btn_Cnt_MQTT.setDefault(False)
+        self.Btn_Cnt_MQTT.setFlat(False)
         self.Btn_Cnt_MQTT.setObjectName("Btn_Cnt_MQTT")
+        self.Btn_print = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn_print.setGeometry(QtCore.QRect(870, 560, 161, 71))
+        self.Btn_print.setStyleSheet("QPushButton {\n"
+"    color: rgb(225, 225, 225);\n"
+"    font: 700 15pt \"Times New Roman\";\n"
+"    background-color: rgb(0, 185, 115);\n"
+"    border-radius: 20px;\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(0, 170,85);\n"
+"    border-bottom: 5px solid black;\n"
+"}\n"
+"")
+        self.Btn_print.setCheckable(True)
+        self.Btn_print.setDefault(False)
+        self.Btn_print.setFlat(False)
+        self.Btn_print.setObjectName("Btn_print")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1060, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1111, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -169,49 +316,52 @@ class Ui_MainWindow(object):
         self.Btn_Run_Ban_2.clicked.connect(MainWindow.slot1) # type: ignore
         self.Btn_Run_Ban_3.clicked.connect(MainWindow.slot1) # type: ignore
         self.Btn_Run_Ban_4.clicked.connect(MainWindow.slot1) # type: ignore
-        self.Btn_Run.clicked.connect(MainWindow.slot1) # type: ignore
+        self.Btn_Cnt_MQTT.clicked.connect(MainWindow.slot3) # type: ignore
+        self.Btn_Ra_Ban_1.clicked.connect(MainWindow.slot2) # type: ignore
         self.Btn_Ra_Ban_2.clicked.connect(MainWindow.slot2) # type: ignore
         self.Btn_Ra_Ban_3.clicked.connect(MainWindow.slot2) # type: ignore
         self.Btn_Ra_Ban_4.clicked.connect(MainWindow.slot2) # type: ignore
-        self.Btn_Ra_Ban_1.toggled['bool'].connect(self.cbBox_Khay_index_1.setEnabled) # type: ignore
-        self.Btn_Ra_Ban_1.clicked.connect(MainWindow.slot2) # type: ignore
+        self.Btn_Ra_Ban_1.clicked['bool'].connect(self.cbBox_Khay_index_1.setEnabled) # type: ignore
         self.Btn_Ra_Ban_2.clicked['bool'].connect(self.cbBox_Khay_index_2.setEnabled) # type: ignore
         self.Btn_Ra_Ban_3.clicked['bool'].connect(self.cbBox_Khay_index_3.setEnabled) # type: ignore
         self.Btn_Ra_Ban_4.clicked['bool'].connect(self.cbBox_Khay_index_4.setEnabled) # type: ignore
-        self.Btn_Cnt_MQTT.clicked.connect(MainWindow.slot3) # type: ignore
+        self.Btn_Run.clicked.connect(MainWindow.slot_pub) # type: ignore
+        self.Btn_print.clicked.connect(MainWindow.slot4) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.Btn_Run_Ban_1.setText(_translate("MainWindow", "Run_Ban_1"))
-        self.txt_order_index_0.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
-        self.Btn_Run_Ban_2.setText(_translate("MainWindow", "Run_Ban_2"))
-        self.Btn_Run_Ban_3.setText(_translate("MainWindow", "Run_Ban_3"))
-        self.Btn_Run_Ban_4.setText(_translate("MainWindow", "Run_Ban_4"))
-        self.Btn_Ra_Ban_1.setText(_translate("MainWindow", "Ra_Ban_1"))
-        self.Btn_Ra_Ban_2.setText(_translate("MainWindow", "Ra_Ban_2"))
-        self.Btn_Ra_Ban_3.setText(_translate("MainWindow", "Ra_Ban_3"))
-        self.Btn_Ra_Ban_4.setText(_translate("MainWindow", "Ra_Ban_4"))
-        self.Btn_Send.setText(_translate("MainWindow", "SEND"))
+        self.label_9.setText(_translate("MainWindow", " LẤY ĐƠN HÀNG"))
+        self.Btn_Run_Ban_1.setText(_translate("MainWindow", "BÀN 1"))
+        self.label_10.setText(_translate("MainWindow", "GIAO ĐỒ ĂN"))
+        self.Btn_Ra_Ban_1.setText(_translate("MainWindow", "BÀN 1"))
+        self.Btn_Run_Ban_2.setText(_translate("MainWindow", "BÀN 2"))
+        self.Btn_Run_Ban_3.setText(_translate("MainWindow", "BÀN 3"))
+        self.Btn_Run_Ban_4.setText(_translate("MainWindow", "BÀN 4"))
+        self.Btn_Ra_Ban_2.setText(_translate("MainWindow", "BÀN 2"))
+        self.Btn_Ra_Ban_3.setText(_translate("MainWindow", "BÀN 3"))
+        self.Btn_Ra_Ban_4.setText(_translate("MainWindow", "BÀN 4"))
         self.cbBox_Khay_index_1.setCurrentText(_translate("MainWindow", "        KHAY 1 "))
         self.cbBox_Khay_index_1.setItemText(0, _translate("MainWindow", "        KHAY 1 "))
         self.cbBox_Khay_index_1.setItemText(1, _translate("MainWindow", "        KHAY 2"))
-        self.Btn_Run.setText(_translate("MainWindow", "RUN"))
-        self.cbBox_Khay_index_2.setCurrentText(_translate("MainWindow", "        KHAY 1 "))
-        self.cbBox_Khay_index_2.setItemText(0, _translate("MainWindow", "        KHAY 1 "))
-        self.cbBox_Khay_index_2.setItemText(1, _translate("MainWindow", "        KHAY 2"))
         self.cbBox_Khay_index_3.setCurrentText(_translate("MainWindow", "        KHAY 1 "))
         self.cbBox_Khay_index_3.setItemText(0, _translate("MainWindow", "        KHAY 1 "))
         self.cbBox_Khay_index_3.setItemText(1, _translate("MainWindow", "        KHAY 2"))
         self.cbBox_Khay_index_4.setCurrentText(_translate("MainWindow", "        KHAY 1 "))
         self.cbBox_Khay_index_4.setItemText(0, _translate("MainWindow", "        KHAY 1 "))
         self.cbBox_Khay_index_4.setItemText(1, _translate("MainWindow", "        KHAY 2"))
-        self.Btn_Cnt_MQTT.setText(_translate("MainWindow", "DISCONNECT"))
+        self.cbBox_Khay_index_2.setCurrentText(_translate("MainWindow", "        KHAY 1 "))
+        self.cbBox_Khay_index_2.setItemText(0, _translate("MainWindow", "        KHAY 1 "))
+        self.cbBox_Khay_index_2.setItemText(1, _translate("MainWindow", "        KHAY 2"))
+        self.txt_order_index_0.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
+        self.Btn_Run.setText(_translate("MainWindow", "KÍCH HOẠT"))
+        self.Btn_Cnt_MQTT.setText(_translate("MainWindow", "NGẮT KẾT NỐI"))
+        self.Btn_print.setText(_translate("MainWindow", "XUẤT"))
 
 
 if __name__ == "__main__":
